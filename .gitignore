@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.idea
 
 # C extensions
 *.so
@@ -228,3 +229,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+/figure_1/
+/figure_2/
+/figure_3/
+/figure_4/
+/figure_5/
