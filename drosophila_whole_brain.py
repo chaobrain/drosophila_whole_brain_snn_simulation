@@ -319,7 +319,7 @@ def ndarray_to_dataframe(
     if column_axis is None:
         assert row_axis is not None, 'row_axis must be specified if column_axis is None'
 
-        if not isinstance(column_axis, int):
+        if not isinstance(row_axis, int):
             if row_axis < 0:
                 row_axis = row_axis + arr.ndim
             if not (0 <= row_axis < arr.ndim):
